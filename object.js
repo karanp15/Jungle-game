@@ -3,6 +3,8 @@ function preload() {
   img = loadImage('jungle.jpg');
   img2 = loadImage('bank.jpg');
   img3 = loadImage('treasure.jpg'); 
+  img4 = loadImage('rex.png'); 
+  img5 = loadImage('keys.png'); 
 }
 
 //button object
