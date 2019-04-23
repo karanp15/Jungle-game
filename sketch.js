@@ -15,7 +15,7 @@ draw = function() {
   if (scene === 1) {
     
     logo();
-    
+
   } else if (scene === 2) {
     
     MainMenu();
@@ -34,12 +34,11 @@ draw = function() {
     
   } else if (scene === 6) {
     
-    //Win Scene
-    background(200);
-    image(img3, 0, 0, 600, 600);
-    textSize(60);
-    fill(255);
-    text("YOU WIN!",175,100);
+    WinScene();
+    
+  } else if (scene === 7) {
+    
+    EndMenu();
     
   }
 };
